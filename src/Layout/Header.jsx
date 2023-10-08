@@ -17,12 +17,12 @@ const Header = () => {
                         </div>
                         <button onClick={() => setOpened(!opened)} className='text-3xl text-white md:hidden'>{opened ? <FiMenu></FiMenu> : <FiX></FiX>}</button>
                     </div>
-                    <div className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${opened == true ? 'hidden' : ''}`}>
-                        <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded md:flex-row md:space-x-8 md:mt-0 md:border-0">
-                            <li className='block py-2 pl-3 pr-4 cursor-pointer hover:underline text-white md:p-0'><NavLink to='/' className={({isActive})=>isActive?'text-bold bg-white text-primary px-2 py-1 rounded':''}>Home</NavLink></li>
-                            <li className='block py-2 pl-3 pr-4 cursor-pointer hover:underline text-white md:p-0'><NavLink to='/service' className={({isActive})=>isActive?'text-bold bg-white text-primary px-2 py-1 rounded':''}>Services</NavLink></li>
-                            <li className='block py-2 pl-3 pr-4 cursor-pointer hover:underline text-white md:p-0'><NavLink to='/about' className={({isActive})=>isActive?'text-bold bg-white text-primary px-2 py-1 rounded':''}>About</NavLink></li>
-                            <li className='block py-2 pl-3 pr-4 cursor-pointer hover:underline text-white md:p-0'><NavLink to='/contact' className={({isActive})=>isActive?'text-bold bg-white text-primary px-2 py-1 rounded':''}>Contact</NavLink></li>
+                    <div className={`items-center justify-between w-full md:flex md:w-auto md:order-1 py-1 ${opened == true ? 'hidden' : ''}`}>
+                        <ul className="flex flex-col p-4 md:p-0 font-semibold gap-3 border rounded md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                            <li className='text-white'><NavLink to='/' className={({isActive})=>isActive?'bg-white text-primary rounded px-2 py-1':'px-2 py-1'}>Home</NavLink></li>
+                            <li className='text-white'><NavLink to='/service' className={({isActive})=>isActive?'bg-white text-primary rounded px-2 py-1':'px-2 py-1'}>Services</NavLink></li>
+                            <li className='text-white'><NavLink to='/about' className={({isActive})=>isActive?'bg-white text-primary rounded px-2 py-1':'px-2 py-1'}>About</NavLink></li>
+                            <li className='text-white'><NavLink to='/contact' className={({isActive})=>isActive? 'bg-white text-primary rounded px-2 py-1':'px-2 py-1'}>Contact</NavLink></li>
                         </ul>
                     </div>
                 </div>

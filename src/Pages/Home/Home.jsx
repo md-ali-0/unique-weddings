@@ -1,9 +1,9 @@
-import Banner from "./Banner";
+import Slider from "./Slider";
 
 const Home = () => {
     return (
         <>
-            <Banner></Banner>
+            <Slider></Slider>
             <div className="w-full container mx-auto py-8">
                 
             </div>

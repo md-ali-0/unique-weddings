@@ -10,6 +10,7 @@ const Login = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const [err, setErr] = useState('');
+    
     if (user) {
         navigate('/')
     }
@@ -39,6 +40,7 @@ const Login = () => {
             })
             .catch(err => {
                 setErr(err.code)
+                setLoading(false)
             })
     }
     return (

@@ -8,18 +8,18 @@ const Footer = () => {
             <div className="w-full container mx-auto p-4 md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <Link to='/'><img className='w-24 mx-auto py-3 sm:py-0' src={Logo} alt="Unique Weddings" /></Link>
-                    <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0">
+                    <ul className="flex flex-wrap items-center justify-center md:justify-start mb-6 text-sm font-medium text-white sm:mb-0">
                         <li>
-                            <Link className='mr-4 hover:underline md:mr-6'>About</Link>
+                            <Link to='/' className='mr-4 hover:underline md:mr-6'>Home</Link>
                         </li>
                         <li>
-                            <Link className='mr-4 hover:underline md:mr-6'>Privacy Policy</Link>
+                            <Link to='/services' className='mr-4 hover:underline md:mr-6'>Services</Link>
                         </li>
                         <li>
-                            <Link className='mr-4 hover:underline md:mr-6'>Licensing</Link>
+                            <Link to='/vendors' className='mr-4 hover:underline md:mr-6'>Vendors</Link>
                         </li>
                         <li>
-                            <Link className='mr-4 hover:underline md:mr-6'>Contact</Link>
+                            <Link to='/venues' className='mr-4 hover:underline md:mr-6'>Venues</Link>
                         </li>
                     </ul>
                 </div>

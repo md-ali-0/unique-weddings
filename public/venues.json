@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "venue_name": "Dhaka Grand Garden",
+        "location": "Dhaka, Bangladesh",
+        "capacity": "Up to 300 guests",
+        "image": "https://i.ibb.co/TTsTPBC/Dhaka-Grand-Garden.png",
+        "description": "Dhaka Grand Garden is a lush outdoor venue located in the heart of Dhaka, Bangladesh. Surrounded by greenery and beautiful landscapes, it offers an enchanting setting for your wedding. Whether you envision a traditional Bangladeshi wedding or a modern celebration, our venue can accommodate your needs.",
+        "rating": "4.7"
+    },
+    {
+        "id": 2,
+        "venue_name": "Chittagong Seaside Resort",
+        "location": "Chittagong, Bangladesh",
+        "capacity": "Up to 200 guests",
+        "image": "https://i.ibb.co/sVMZdB1/Chittagong-Seaside-Resort.png",
+        "description": "Chittagong Seaside Resort is a stunning beachfront venue on the coast of Chittagong, Bangladesh. With its sandy shores and ocean views, it provides a romantic backdrop for your beach wedding. Our resort offers a blend of modern amenities and natural beauty, ensuring an unforgettable wedding experience.",
+        "rating": "4.9"
+    },
+    {
+        "id": 3,
+        "venue_name": "Sylhet Tea Plantation Estate",
+        "location": "Sylhet, Bangladesh",
+        "capacity": "Up to 150 guests",
+        "image": "https://i.ibb.co/Ky8nppd/Sylhet-Tea-Plantation-Estate.png",
+        "description": "The Sylhet Tea Plantation Estate is a unique venue nestled amidst the lush tea gardens of Sylhet, Bangladesh. The serene landscapes and rolling hills create a tranquil atmosphere for your wedding. If you seek a nature-inspired wedding with a touch of rustic charm, our estate is the perfect choice.",
+        "rating": "4.5"
+    },
+    {
+        "id": 4,
+        "venue_name": "Rajshahi Riverside Retreat",
+        "location": "Rajshahi, Bangladesh",
+        "capacity": "Up to 250 guests",
+        "image": "https://i.ibb.co/yB3trvD/Rajshahi-Riverside-Retreat-1.png",
+        "description": "Rajshahi Riverside Retreat is a picturesque venue located along the banks of the Padma River in Rajshahi, Bangladesh. The serene riverside setting and open spaces offer an idyllic backdrop for your wedding. Experience the magic of a riverside wedding with us.",
+        "rating": "4.8"
+    }
+]

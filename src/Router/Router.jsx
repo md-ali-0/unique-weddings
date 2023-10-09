@@ -8,6 +8,9 @@ import Services from "../Pages/Services/Services";
 import Service from "../Pages/Services/Service";
 import Vendors from "../Pages/Vendors/Vendors";
 import Vendor from "../Pages/Vendors/Vendor";
+import Venues from "../Pages/Venues/Venues";
+import Venue from "../Pages/Venues/Venue";
+import PrivaterRoute from "./PrivaterRoute";
 
 const Router = createBrowserRouter([
     {
@@ -17,7 +20,6 @@ const Router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                loader: ()=>fetch('/service.json'),
                 element: <Home></Home>
             },
             {
@@ -35,24 +37,33 @@ const Router = createBrowserRouter([
             {   
                 path: '/services',
                 loader: ()=>fetch('/service.json'),
-                element: <Services></Services>
+                element: <PrivaterRoute><Services></Services></PrivaterRoute>
             },
             {   
                 path: '/service/:id',
                 loader: ()=>fetch('/service.json'),
-                element: <Service></Service>
+                element: <PrivaterRoute><Service></Service></PrivaterRoute>
             },
             {   
                 path: '/vendors',
                 loader: ()=>fetch('/vendors.json'),
-                element: <Vendors></Vendors>
+                element: <PrivaterRoute><Vendors></Vendors></PrivaterRoute>
             },
             {   
                 path: '/vendor/:id',
                 loader: ()=>fetch('/vendors.json'),
-                element: <Vendor></Vendor>
+                element: <PrivaterRoute><Vendor></Vendor></PrivaterRoute>
             },
-
+            {   
+                path: '/venues',
+                loader: ()=>fetch('/venues.json'),
+                element: <PrivaterRoute><Venues></Venues></PrivaterRoute>
+            },
+            {   
+                path: '/venue/:id',
+                loader: ()=>fetch('/venues.json'),
+                element: <PrivaterRoute><Venue></Venue></PrivaterRoute>
+            },
         ]
     }
 ])

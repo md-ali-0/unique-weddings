@@ -5,7 +5,7 @@ const Vendor = () => {
 
     const { id } = useParams()
     const vendors = useLoaderData();
-    const vendor = vendors.find(service => service.id == id)
+    const vendor = vendors.find(vendor => vendor.id == id)
     const { vendor_name, image, price, description , rating} = vendor
     return (
         <div>

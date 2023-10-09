@@ -54,9 +54,10 @@ const Header = () => {
                         <button onClick={() => setOpened(!opened)} className='text-3xl text-white md:hidden'>{opened ? <FiMenu></FiMenu> : <FiX></FiX>}</button>
                     </div>
                     <div className={`items-center justify-between w-full md:flex md:w-auto md:order-1 py-1 ${opened == true ? 'hidden' : ''}`}>
-                        <ul className="flex flex-col p-4 md:p-0 font-semibold gap-3 border rounded md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                        <ul className="flex flex-col p-4 md:p-0 font-semibold gap-3 rounded md:flex-row md:space-x-8 md:mt-0">
                             <li className='text-white'><NavLink to='/' className={({ isActive }) => isActive ? 'bg-white text-primary rounded px-2 py-1' : 'px-2 py-1'}>Home</NavLink></li>
-                            <li className='text-white'><NavLink to='/service' className={({ isActive }) => isActive ? 'bg-white text-primary rounded px-2 py-1' : 'px-2 py-1'}>Services</NavLink></li>
+                            <li className='text-white'><NavLink to='/services' className={({ isActive }) => isActive ? 'bg-white text-primary rounded px-2 py-1' : 'px-2 py-1'}>Services</NavLink></li>
+                            <li className='text-white'><NavLink to='/vendors' className={({ isActive }) => isActive ? 'bg-white text-primary rounded px-2 py-1' : 'px-2 py-1'}>Vendors</NavLink></li>
                         </ul>
                     </div>
                 </div>

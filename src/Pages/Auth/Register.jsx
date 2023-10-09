@@ -6,10 +6,13 @@ import { AuthContext } from "../../Context/AuthContext";
 import { toast } from 'react-toastify';
 
 const Register = () => {
-    const { createRegistration, signInWithGoogle, setLoading } = useContext(AuthContext)
+    const { user, createRegistration, signInWithGoogle, setLoading } = useContext(AuthContext)
     const navigate = useNavigate();
     const [err, setErr] = useState('');
-
+    
+    if (user) {
+        navigate('/')
+    }
     const handleRegistration = e => {
         e.preventDefault();
         const email = e.target.email.value

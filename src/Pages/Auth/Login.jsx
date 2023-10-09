@@ -6,11 +6,13 @@ import { AuthContext } from "../../Context/AuthContext";
 import { toast } from 'react-toastify';
 
 const Login = () => {
-    const { createLogin, signInWithGoogle, setLoading } = useContext(AuthContext);
+    const { user, createLogin, signInWithGoogle, setLoading } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
     const [err, setErr] = useState('');
-
+    if (user) {
+        navigate('/')
+    }
     const handleLogin = (e) => {
         e.preventDefault();
         const email = e.target.email.value

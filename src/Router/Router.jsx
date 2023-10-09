@@ -6,6 +6,8 @@ import Register from "../Pages/Auth/Register";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Services from "../Pages/Services/Services";
 import Service from "../Pages/Services/Service";
+import Vendors from "../Pages/Vendors/Vendors";
+import Vendor from "../Pages/Vendors/Vendor";
 
 const Router = createBrowserRouter([
     {
@@ -15,7 +17,7 @@ const Router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                loader: ()=>fetch('/data.json'),
+                loader: ()=>fetch('/service.json'),
                 element: <Home></Home>
             },
             {
@@ -32,18 +34,25 @@ const Router = createBrowserRouter([
             },
             {   
                 path: '/services',
-                loader: ()=>fetch('/data.json'),
+                loader: ()=>fetch('/service.json'),
                 element: <Services></Services>
             },
             {   
                 path: '/service/:id',
-                loader: ()=>fetch('/data.json'),
+                loader: ()=>fetch('/service.json'),
                 element: <Service></Service>
             },
             {   
                 path: '/vendors',
-                element: <h1>vendors</h1>
+                loader: ()=>fetch('/vendors.json'),
+                element: <Vendors></Vendors>
             },
+            {   
+                path: '/vendor/:id',
+                loader: ()=>fetch('/vendors.json'),
+                element: <Vendor></Vendor>
+            },
+
         ]
     }
 ])

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "service_name": "Photography Services",
+        "title": "Capture Your Love Story",
+        "thumbnail": "https://i.ibb.co/P59MKbQ/Photography.png",
+        "image": "https://i.ibb.co/1qdHVcM/Photography-3x.png",
+        "short_description": "Capture your special moments beautifully.",
+        "description": "Our talented photographers specialize in documenting the most precious moments of your wedding day. From candid shots to stunning portraits, we ensure that every memory is preserved beautifully. With a keen eye for detail and a passion for storytelling, we capture the essence of your love story through our lens, creating timeless images that you'll cherish forever.",
+        "price": "$1,500 - $4,000"
+    },
+    {
+        "id": 2,
+        "service_name": "Catering Services",
+        "title": "Exquisite Culinary Delights",
+        "thumbnail": "https://i.ibb.co/qm18wHC/Catering.png",
+        "image": "https://i.ibb.co/f8MS0Zz/Catering-3x.png",
+        "short_description": "Delight your guests with exceptional cuisine.",
+        "description": "Treat your guests to a culinary experience they won't forget. Our expert chefs create mouthwatering dishes that cater to your taste and dietary preferences, making your wedding feast truly exceptional. We believe that great food is at the heart of any memorable celebration. From appetizers to desserts, our culinary delights will delight your palate and leave a lasting impression on your guests.",
+        "price": "$5,000 - $10,000"
+    },
+    {
+        "id": 3,
+        "service_name": "Floral Arrangements",
+        "title": "Blossom in Love",
+        "thumbnail": "https://i.ibb.co/KsmdvLs/Floral-Arrangements.png",
+        "image": "https://i.ibb.co/CVVrYVN/Floral-Arrangements-3x.png",
+        "short_description": "Elegant floral arrangements for your special day.",
+        "description": "Our skilled florists design breathtaking floral arrangements that enhance the beauty of your venue. From bouquets to centerpieces, we infuse elegance and romance into every petal. We understand that flowers have the power to transform a space and evoke emotions. Let us adorn your wedding with stunning floral creations that symbolize love, beauty, and the promise of a new beginning.",
+        "price": "$800 - $3,000"
+    },
+    {
+        "id": 4,
+        "service_name": "Wedding Planning and Coordination",
+        "title": "Your Wedding Vision, Our Expertise",
+        "thumbnail": "https://i.ibb.co/7Gg40kc/Wedding-Planning.png",
+        "image": "https://i.ibb.co/k8FKH8w/Wedding-Planning-3x.png",
+        "short_description": "Seamless wedding planning for your dream day.",
+        "description": "Relax and enjoy your engagement while we handle all the details. Our experienced wedding planners ensure a seamless, stress-free journey to your big day, making your dream wedding a reality. We take pride in turning your vision into a meticulously planned event, from selecting the perfect venue to coordinating every aspect of your wedding day. Let us make your wedding planning journey a joyful and memorable experience.",
+        "price": "$2,500 - $7,000"
+    },
+    {
+        "id": 5,
+        "service_name": "DJ and Entertainment Services",
+        "title": "Dance the Night Away",
+        "thumbnail": "https://i.ibb.co/nR8WNz4/DJ-and-Entertainment.png",
+        "image": "https://i.ibb.co/3B6xPQZ/DJ-and-Entertainment-3x.png",
+        "short_description": "Vibrant music and entertainment for your event.",
+        "description": "Our DJs and entertainers keep the party going with a fantastic selection of music and engaging performances. From your first dance to the last song, we create a vibrant and memorable atmosphere. We understand that music sets the mood for celebration, and our skilled DJs know how to read the crowd and keep the dance floor alive. Let us be the soundtrack to your unforgettable wedding celebration.",
+        "price": "$1,000 - $3,000"
+    },
+    {
+        "id": 6,
+        "service_name": "Wedding Venue",
+        "title": "The Perfect Setting",
+        "thumbnail": "https://i.ibb.co/1d6xR1J/Wedding-Venue.png",
+        "image": "https://i.ibb.co/4YZf4Qx/Wedding-Venue-3x.png",
+        "short_description": "Stunning venues for your love story.",
+        "description": "Find the ideal backdrop for your love story among our stunning wedding venues. Whether you prefer an intimate garden or a grand ballroom, we have a space that suits your style. Our venues are carefully curated to provide the perfect setting for your special day. With beautiful architecture and impeccable service, we ensure that your wedding venue is as magical as the love you share.",
+        "price": "$3,000 - $10,000"
+    },
+    {
+        "id": 7,
+        "service_name": "Bridal Makeup and Hair Styling",
+        "title": "Radiant Beauty for the Bride",
+        "thumbnail": "https://i.ibb.co/6bZ79RX/Bridal-Makeup-and-Hair-Styling.png",
+        "image": "https://i.ibb.co/sPVxqgG/Bridal-Makeup-and-Hair-Styling-3x.png",
+        "short_description": "Professional makeup and hairstyling for brides.",
+        "description": "Our professional makeup artists and hairstylists ensure you look and feel your best on your special day. We enhance your natural beauty, making you the stunning bride you've always envisioned. We understand that your wedding day is one of the most important days of your life, and our team is dedicated to making you feel confident and radiant as you walk down the aisle.",
+        "price": "$400 - $1,500"
+    },
+    {
+        "id": 8,
+        "service_name": "Wedding Cake Design",
+        "title": "Sweet Memories, Beautifully Crafted",
+        "thumbnail": "https://i.ibb.co/4YyhQNF/Wedding-Cake-Design.png",
+        "image": "https://i.ibb.co/qDwfQCZ/Wedding-Cake-Design-3x.png",
+        "short_description": "Visually stunning and delicious wedding cakes.",
+        "description": "Delight in a wedding cake that's not only visually stunning but also delicious. Our cake designers create edible works of art that add a sweet touch to your celebration. We believe that every slice of cake should be a delightful experience. Let us craft a wedding cake that not only looks beautiful but also tastes heavenly, leaving a sweet memory for you and your guests.",
+        "price": "$300 - $800"
+    },
+    {
+        "id": 9,
+        "service_name": "Transportation Services",
+        "title": "Arrive in Style",
+        "thumbnail": "https://i.ibb.co/jMnm549/Transportation-Services.png",
+        "image": "https://i.ibb.co/dLtdbKS/Transportation-Services-3x.png",
+        "short_description": "Luxurious transportation options for grand entrances.",
+        "description": "Make a grand entrance and exit with our luxurious transportation options. From classic cars to limousines, we ensure you travel in style and comfort. Your wedding day is a journey, and we want every moment of that journey to be memorable. Let us provide you with transportation that not only gets you from place to place but also adds a touch of elegance to your wedding day.",
+        "price": "$500 - $1,500"
+    }
+]

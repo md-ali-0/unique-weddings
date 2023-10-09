@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "vendor_name": "Live Music Band",
+        "image": "https://i.ibb.co/p2MGgJf/Live-Music-Band.png",
+        "rating": "4.5",
+        "description": "Our Live Music Band brings the enchantment of live music to your wedding day. With a blend of melodious tunes and captivating performances, we set the perfect mood for your celebration. Our talented musicians and vocalists create a dynamic atmosphere that keeps your guests entertained. From heartwarming ballads during the ceremony to energetic beats for dancing, we customize our repertoire to your preferences. Let us make your special day unforgettable with the magic of live music.",
+        "price": "$2,000 - $5,000"
+    },
+    {
+        "id": 2,
+        "vendor_name": "Wedding Officiant",
+        "image": "https://i.ibb.co/ChgZ8L4/Wedding-Officiant.png",
+        "rating": "4.8",
+        "description": "Our Wedding Officiant service is dedicated to crafting meaningful and personalized ceremonies that reflect your love story. With years of experience, our officiants guide you through the process of creating a ceremony that is uniquely yours. Whether you prefer a traditional ceremony or something more unconventional, we are here to make your vows memorable. We believe that love knows no boundaries, and we are honored to be a part of your journey to forever.",
+        "price": "$500 - $1,000"
+    },
+    {
+        "id": 3,
+        "vendor_name": "Wedding Decor Rentals",
+        "image": "https://i.ibb.co/CQZbv6N/Wedding-Decor-Rentals.png",
+        "rating": "4.5",
+        "description": "Elevate the aesthetics of your wedding with our Wedding Decor Rentals. We offer an exquisite collection of decor items that transform your venue into a dreamy setting. From elegant centerpieces to chic table settings, our rentals add a touch of sophistication to your celebration. Our experienced team works closely with you to design a decor scheme that matches your vision. Create lasting memories against a backdrop of stunning decor with our rental service.",
+        "price": "$800 - $2,500"
+    },
+    {
+        "id": 4,
+        "vendor_name": "Videography Services",
+        "image": "https://i.ibb.co/Vjq4Zqx/Videography-Services.png",
+        "rating": "4.3",
+        "description": "Capture every moment, emotion, and detail of your wedding day with our Videography Services. Our skilled videographers are dedicated to creating cinematic masterpieces that preserve the essence of your love story. From cinematic storytelling to artistic editing, we craft videos that you'll treasure forever. We understand the importance of every smile, tear, and laughter, and we are committed to immortalizing these moments in timeless films.",
+        "price": "$2,500 - $6,000"
+    },
+    {
+        "id": 5,
+        "vendor_name": "Wedding Invitations",
+        "image": "https://i.ibb.co/0rvt42r/Wedding-Invitations.png",
+        "rating": "4.2",
+        "description": "Your journey to 'I do' begins with the perfect Wedding Invitations. Our design team specializes in creating bespoke invitations that set the tone for your wedding. From classic elegance to modern charm, we offer a wide range of styles to choose from. Your invitations serve as the first glimpse into your special day, and we ensure that they reflect your personality and love story. Let us help you make a statement with your wedding invitations.",
+        "price": "$300 - $800"
+    },
+    {
+        "id": 6,
+        "vendor_name": "Honeymoon Planning",
+        "image": "https://i.ibb.co/vBC0dNk/Honeymoon-Planning.png",
+        "rating": "4.8",
+        "description": "Embark on your post-wedding adventure with our Honeymoon Planning service. We specialize in curating unforgettable honeymoon experiences that match your desires. Whether you dream of a romantic beach getaway, an exotic cultural exploration, or an adventurous escapade, we've got you covered. Our expert planners handle all the logistics, leaving you free to savor every moment of your honeymoon. Start your married life with a journey that's as unique as your love story.",
+        "price": "$1,000 - $4,000"
+    }
+]

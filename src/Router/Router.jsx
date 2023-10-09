@@ -40,7 +40,7 @@ const Router = createBrowserRouter([
                 element: <PrivaterRoute><Services></Services></PrivaterRoute>
             },
             {   
-                path: '/service/:id',
+                path: '/services/:id',
                 loader: ()=>fetch('/service.json'),
                 element: <PrivaterRoute><Service></Service></PrivaterRoute>
             },
@@ -50,7 +50,7 @@ const Router = createBrowserRouter([
                 element: <PrivaterRoute><Vendors></Vendors></PrivaterRoute>
             },
             {   
-                path: '/vendor/:id',
+                path: '/vendors/:id',
                 loader: ()=>fetch('/vendors.json'),
                 element: <PrivaterRoute><Vendor></Vendor></PrivaterRoute>
             },
@@ -60,7 +60,7 @@ const Router = createBrowserRouter([
                 element: <PrivaterRoute><Venues></Venues></PrivaterRoute>
             },
             {   
-                path: '/venue/:id',
+                path: '/venues/:id',
                 loader: ()=>fetch('/venues.json'),
                 element: <PrivaterRoute><Venue></Venue></PrivaterRoute>
             },

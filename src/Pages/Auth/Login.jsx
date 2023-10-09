@@ -2,18 +2,17 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Context/AuthContext";
+import { FiEye, FiEyeOff } from "react-icons/fi";
 
 import { toast } from 'react-toastify';
 
 const Login = () => {
-    const { user, createLogin, signInWithGoogle, setLoading } = useContext(AuthContext);
+    const { createLogin, signInWithGoogle, setLoading } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
     const [err, setErr] = useState('');
-    
-    if (user) {
-        navigate('/')
-    }
+    const [showPass, setShowPass] = useState(false);
+
     const handleLogin = (e) => {
         e.preventDefault();
         const email = e.target.email.value
@@ -43,6 +42,7 @@ const Login = () => {
                 setLoading(false)
             })
     }
+
     return (
         <div className="flex flex-col items-center justify-center px-6 py-5 mx-auto my-10 lg:py-0">
             <div className="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0">
@@ -55,9 +55,14 @@ const Login = () => {
                             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 ">Your email</label>
                             <input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 focus:outline-none sm:text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5" placeholder="Enter Email Address" required />
                         </div>
-                        <div>
+                        <div className="relative">
                             <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900">Password</label>
-                            <input type="password" name="password" id="password" className="bg-gray-50 border focus:outline-none border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5" placeholder="Enter Password" required />
+                            <input type={showPass ? "text" : "password"} name="password" id="password" className="bg-gray-50 border focus:outline-none border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5" placeholder="Enter Password" required />
+                            <span onClick={() => { !setShowPass(!showPass) }} className="absolute right-3 top-10 text-gray-700 text-md cursor-pointer">
+                                {
+                                    showPass ? <FiEyeOff></FiEyeOff> : <FiEye></FiEye>
+                                }
+                            </span>
                         </div>
                         {err ? <p className="text-red-600">{err}</p> : ''}
                         <button type="submit" className="w-full text-white bg-primary hover:bg-primary focus:outline-none focus:ring-0 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Sign in</button>
